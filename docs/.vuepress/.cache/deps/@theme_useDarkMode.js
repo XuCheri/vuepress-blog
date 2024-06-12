@@ -3,6 +3,9 @@ import {
   useStorage
 } from "./chunk-HF5MB2VA.js";
 import {
+  useThemeLocaleData
+} from "./chunk-S2KHOG74.js";
+import {
   computed,
   inject,
   onMounted,
@@ -10,9 +13,7 @@ import {
   provide,
   watch
 } from "./chunk-RY5ODQAQ.js";
-import {
-  useThemeLocaleData
-} from "./chunk-S2KHOG74.js";
+import "./chunk-F3FYYIAV.js";
 
 // node_modules/@vuepress/theme-default/lib/client/composables/useDarkMode.js
 var darkModeSymbol = Symbol(__VUEPRESS_DEV__ ? "darkMode" : "");

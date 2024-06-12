@@ -1,9 +1,10 @@
 import {
-  computed
-} from "./chunk-RY5ODQAQ.js";
-import {
   useThemeLocaleData
 } from "./chunk-S2KHOG74.js";
+import {
+  computed
+} from "./chunk-RY5ODQAQ.js";
+import "./chunk-F3FYYIAV.js";
 
 // node_modules/@vuepress/theme-default/lib/client/composables/useLastUpdated.js
 import { usePageData, usePageFrontmatter } from "vuepress/client";

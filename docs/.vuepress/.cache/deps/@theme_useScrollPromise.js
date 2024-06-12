@@ -1,3 +1,5 @@
+import "./chunk-F3FYYIAV.js";
+
 // node_modules/@vuepress/theme-default/lib/client/composables/useScrollPromise.js
 var promise = null;
 var promiseResolve = null;

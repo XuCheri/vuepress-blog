@@ -2,6 +2,10 @@ import { blogPlugin } from '@vuepress/plugin-blog'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
+//Oh my live2d插件
+import { oml2dPlugin } from 'vuepress-plugin-oh-my-live2d';
+//docsearch插件
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
   lang: 'zh-ch',
@@ -10,24 +14,27 @@ export default defineUserConfig({
   description: 'Blog Site',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/images/Maltese.jpg',
 
     navbar: [
-      '/',
       {
-        text: 'Article',
+        text: '主页',
+        link: '/',
+      },
+      {
+        text: '随笔',
         link: '/article/',
       },
       {
-        text: 'Category',
+        text: '分类',
         link: '/category/',
       },
       {
-        text: 'Tag',
+        text: '标签',
         link: '/tag/',
       },
       {
-        text: 'Timeline',
+        text: '时间线',
         link: '/timeline/',
       },
     ],
@@ -134,6 +141,70 @@ export default defineUserConfig({
         },
       ],
       hotReload: true,
+    }),
+    oml2dPlugin({
+      // 在这里配置选项
+      models: [
+        {
+          path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/Live2D/Senko_Normals/senko.model3.json',
+          scale: 0.12,
+          position: [-10, 50],
+          stageStyle: {
+            width: 350
+          }
+        },
+        {
+          "path": "https://model.oml2d.com/Senko_Normals/senko.model3.json",
+          "position": [-10, 20]
+        },
+        {
+          "path": "https://model.oml2d.com/Pio/model.json",
+          "scale": 0.4,
+          "position": [0, 50],
+          "stageStyle": {
+            "height": 300
+          }
+        },
+        {
+          "path": "https://model.oml2d.com/shizuku/shizuku.model.json",
+          "scale": 0.2,
+          "volume": 0,
+          "position": [70, 70],
+          "stageStyle": {
+            "height": 370,
+            "width": 400
+          }
+        },
+        {
+          "path": "https://model.oml2d.com/shizuku_pajama/index.json",
+          "scale": 0.2,
+          "volume": 0,
+          "position": [40, 10],
+          "stageStyle": {
+            "height": 350,
+            "width": 330
+          }
+        },
+        {
+          "path": "https://model.oml2d.com/HK416-1-normal/model.json",
+          "position": [0, 60],
+          "scale": 0.08,
+          "stageStyle": {
+            "height": 450
+          }
+        },
+        {
+          "path": "https://model.oml2d.com/cat-black/model.json",
+          "scale": 0.15,
+          "position": [0, 20],
+          "stageStyle": {
+            "height": 350
+          }
+        }
+      ]
+    }),
+    searchProPlugin({
+      // 配置选项
     }),
   ],
 

@@ -5,11 +5,12 @@ import {
 } from "./chunk-K7GDBC4F.js";
 import "./chunk-U3KLAJNM.js";
 import {
-  computed
-} from "./chunk-RY5ODQAQ.js";
-import {
   useThemeLocaleData
 } from "./chunk-S2KHOG74.js";
+import {
+  computed
+} from "./chunk-RY5ODQAQ.js";
+import "./chunk-F3FYYIAV.js";
 
 // node_modules/@vuepress/theme-default/lib/client/composables/useNavbarConfig.js
 import { isString } from "vuepress/shared";

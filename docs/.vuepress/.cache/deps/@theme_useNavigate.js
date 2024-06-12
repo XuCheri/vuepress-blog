@@ -3,6 +3,7 @@ import {
   isLinkWithProtocol
 } from "./chunk-U3KLAJNM.js";
 import "./chunk-RY5ODQAQ.js";
+import "./chunk-F3FYYIAV.js";
 
 // node_modules/@vuepress/theme-default/lib/client/composables/useNavigate.js
 import { useRoute, useRouter } from "vuepress/client";

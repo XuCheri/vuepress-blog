@@ -8,11 +8,12 @@ import {
   setupSidebarItems,
   sidebarItemsSymbol,
   useSidebarItems
-} from "./chunk-VNGGDC5Q.js";
+} from "./chunk-EBFHTL2Z.js";
 import "./chunk-K7GDBC4F.js";
 import "./chunk-U3KLAJNM.js";
-import "./chunk-RY5ODQAQ.js";
 import "./chunk-S2KHOG74.js";
+import "./chunk-RY5ODQAQ.js";
+import "./chunk-F3FYYIAV.js";
 export {
   resolveArraySidebarItems,
   resolveMultiSidebarItems,

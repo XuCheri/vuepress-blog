@@ -8,13 +8,13 @@ import {
   startsWith
 } from "./chunk-U3KLAJNM.js";
 import {
+  useThemeLocaleData
+} from "./chunk-S2KHOG74.js";
+import {
   computed,
   inject,
   provide
 } from "./chunk-RY5ODQAQ.js";
-import {
-  useThemeLocaleData
-} from "./chunk-S2KHOG74.js";
 
 // node_modules/@vuepress/theme-default/lib/client/composables/useSidebarItems.js
 import { usePageData, usePageFrontmatter, useRoute, useRouteLocale } from "vuepress/client";
@@ -111,4 +111,4 @@ export {
   resolveArraySidebarItems,
   resolveMultiSidebarItems
 };
-//# sourceMappingURL=chunk-VNGGDC5Q.js.map
+//# sourceMappingURL=chunk-EBFHTL2Z.js.map

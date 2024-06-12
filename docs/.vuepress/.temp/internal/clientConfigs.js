@@ -5,7 +5,10 @@ import * as clientConfig3 from 'D:/work/vuepress-blog/node_modules/@vuepress/plu
 import * as clientConfig4 from 'D:/work/vuepress-blog/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 import * as clientConfig5 from 'D:/work/vuepress-blog/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import * as clientConfig6 from 'D:/work/vuepress-blog/node_modules/@vuepress/theme-default/lib/client/config.js'
-import * as clientConfig7 from 'D:/work/vuepress-blog/docs/.vuepress/client.js'
+import * as clientConfig7 from 'D:/work/vuepress-blog/node_modules/vuepress-plugin-oh-my-live2d/dist/client/config.js'
+import * as clientConfig8 from 'D:/work/vuepress-blog/docs/.vuepress/.temp/sass-palette/load-hope.js'
+import * as clientConfig9 from 'D:/work/vuepress-blog/node_modules/vuepress-plugin-search-pro/lib/client/config.js'
+import * as clientConfig10 from 'D:/work/vuepress-blog/docs/.vuepress/client.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -16,4 +19,7 @@ export const clientConfigs = [
   clientConfig5,
   clientConfig6,
   clientConfig7,
+  clientConfig8,
+  clientConfig9,
+  clientConfig10,
 ].map((m) => m.default).filter(Boolean)

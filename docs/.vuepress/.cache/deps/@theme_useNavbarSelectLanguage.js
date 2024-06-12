@@ -2,12 +2,13 @@ import {
   useRoutePaths
 } from "./chunk-U3KLAJNM.js";
 import {
-  computed
-} from "./chunk-RY5ODQAQ.js";
-import {
   useThemeData,
   useThemeLocaleData
 } from "./chunk-S2KHOG74.js";
+import {
+  computed
+} from "./chunk-RY5ODQAQ.js";
+import "./chunk-F3FYYIAV.js";
 
 // node_modules/@vuepress/theme-default/lib/client/composables/useNavbarSelectLanguage.js
 import { useRoute, useRouteLocale, useSiteData, useSiteLocaleData } from "vuepress/client";

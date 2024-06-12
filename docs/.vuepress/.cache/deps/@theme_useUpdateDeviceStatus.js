@@ -4,6 +4,7 @@ import {
 import {
   onMounted
 } from "./chunk-RY5ODQAQ.js";
+import "./chunk-F3FYYIAV.js";
 
 // node_modules/@vuepress/theme-default/lib/client/composables/useUpdateDeviceStatus.js
 import cssVariables from "D:/work/vuepress-blog/node_modules/@vuepress/theme-default/lib/client/styles/_variables.module.scss";
