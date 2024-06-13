@@ -27,6 +27,23 @@ features:
 
 footer: MIT Licensed | Copyright © 2018-present VuePress Community
 ---
+<social-share
+  :networks="[
+    'wechat',
+    'qrcode',
+    'facebook',
+    'qq',
+    'twitter',
+    'line',
+    'reddit',
+    'skype',
+    'douban',
+    'whatsapp',
+    'telegram',
+    'weibo',
+  ]"
+/>
+
 
 This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
 

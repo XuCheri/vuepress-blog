@@ -6,6 +6,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { oml2dPlugin } from 'vuepress-plugin-oh-my-live2d';
 //docsearch插件
 import { searchProPlugin } from "vuepress-plugin-search-pro";
+//分享插件
+import { socialSharePlugin } from 'vuepress-plugin-social-share'
 
 export default defineUserConfig({
   lang: 'zh-ch',
@@ -206,6 +208,7 @@ export default defineUserConfig({
     searchProPlugin({
       // 配置选项
     }),
+    socialSharePlugin()
   ],
 
   bundler: viteBundler(),

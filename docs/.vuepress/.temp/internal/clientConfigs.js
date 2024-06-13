@@ -8,7 +8,8 @@ import * as clientConfig6 from 'D:/work/vuepress-blog/node_modules/@vuepress/the
 import * as clientConfig7 from 'D:/work/vuepress-blog/node_modules/vuepress-plugin-oh-my-live2d/dist/client/config.js'
 import * as clientConfig8 from 'D:/work/vuepress-blog/docs/.vuepress/.temp/sass-palette/load-hope.js'
 import * as clientConfig9 from 'D:/work/vuepress-blog/node_modules/vuepress-plugin-search-pro/lib/client/config.js'
-import * as clientConfig10 from 'D:/work/vuepress-blog/docs/.vuepress/client.js'
+import * as clientConfig10 from 'D:/work/vuepress-blog/node_modules/vuepress-plugin-social-share/dist/client/config.js'
+import * as clientConfig11 from 'D:/work/vuepress-blog/docs/.vuepress/client.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -22,4 +23,5 @@ export const clientConfigs = [
   clientConfig8,
   clientConfig9,
   clientConfig10,
+  clientConfig11,
 ].map((m) => m.default).filter(Boolean)
