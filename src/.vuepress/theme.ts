@@ -3,8 +3,10 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
+
   // 当前网站部署到的域名。
   hostname: "https://xucheri.github.io",
+
   // 文章显示的默认作者
   author: {
     name: "Cheri",
@@ -13,13 +15,16 @@ export default hopeTheme({
   },
 
   iconAssets: "fontawesome-with-brands",
+
   // 网站logo
   logo: "/assets/images/maltease.jpg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // 项目仓库
+  repo: "XuCheri/vuepress-blog",
 
   docsDir: "src",
 
+  // 博客配置
   blog: {
     name: "Cheri",
     avatar: "/assets/images/maltease.jpg",
@@ -64,6 +69,16 @@ export default hopeTheme({
     articlePerPage: 5,
   },
 
+  // 全屏
+  fullscreen: true,
+
+  // 打印
+  print: true,
+
+  // 纯净模式
+  // pure: true,
+
+  // 语言配置
   locales: {
     "/": {
       // navbar
@@ -72,7 +87,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "Build a better world with the power of the open source community~",
 
       displayFooter: true,
 
@@ -96,7 +111,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "用开源社区力量建设更美好的世界~",
 
       displayFooter: true,
 
@@ -114,8 +129,9 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
+      "/demo/encrypt.html": ["uc#818"],
+      "/zh/demo/encrypt.html": ["uc#818"],
+      "/demo/": ["uc#818"]
     },
   },
 
