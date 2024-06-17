@@ -140,16 +140,24 @@ export default hopeTheme({
 
   plugins: {
 
+    //全局搜索框
     searchPro: true,
+
+    //blog布局模式
     blog: true,
 
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
+    //评论插件
+    comment: {
+      provider: "Giscus",
+      repo: "XuCheri/vuepress-blog",
+      repoId: "R_kgDOMHs0MA",
+      category: "Announcements",
+      categoryId: "DIC_kwDOMHs0MM4CgJDC",
+      inputPosition: "bottom",
+    },
 
     components: {
       components: ["Badge", "VPCard"],
