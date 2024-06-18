@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
-
 export default hopeTheme({
 
   // 当前网站部署到的域名。
@@ -23,6 +22,8 @@ export default hopeTheme({
   repo: "XuCheri/vuepress-blog",
 
   docsDir: "src",
+
+  toc: true,
 
   // 博客配置
   blog: {
@@ -139,7 +140,7 @@ export default hopeTheme({
   // hotReload: true,
 
   plugins: {
-
+    git: true,
     //全局搜索框
     searchPro: true,
 

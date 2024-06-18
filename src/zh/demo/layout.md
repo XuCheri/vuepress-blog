@@ -7,7 +7,6 @@ category:
 tag:
   - 布局
 ---
-
 布局包括:
 
 - [导航栏](https://theme-hope.vuejs.press/zh/guide/layout/navbar.html)

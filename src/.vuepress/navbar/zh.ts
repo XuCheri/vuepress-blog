@@ -48,6 +48,12 @@ export const zhNavbar = navbar([
       "strawberry",
     ],
   },
+  {
+    text: "区块链",
+    icon: "block",
+    link: "/zh/blockchain/",
+
+  },
   // {
   //   text: "V2 文档",
   //   icon: "book",

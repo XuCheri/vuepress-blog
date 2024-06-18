@@ -1,6 +1,5 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-
 export default defineUserConfig({
   base: "/vuepress-blog/",
 
@@ -18,6 +17,8 @@ export default defineUserConfig({
   },
 
   theme,
+  plugins: [
+  ],
 
   // Enable it with pwa
   // shouldPrefetch: false,
